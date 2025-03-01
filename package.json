@@ -1,0 +1,51 @@
+{
+  "name": "@osiris-smarttv/smarttv-platform",
+  "version": "1.0.0",
+  "description": "TypeScript library for SmartTV platform detection and integration",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "lint": "eslint src --ext .ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "tv",
+    "smarttv",
+    "smart-tv",
+    "tizen",
+    "webos",
+    "hisense",
+    "platform"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "thanhcongns94@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/jest": "^27.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "eslint": "^8.4.0",
+    "jest": "^27.4.3",
+    "rollup": "^2.60.2",
+    "ts-jest": "^27.1.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OsirisTech-SmartTV/smarttv-platform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OsirisTech-SmartTV/smarttv-platform/issues"
+  },
+  "homepage": "https://github.com/OsirisTech-SmartTV/smarttv-platform.git#readme"
+}
